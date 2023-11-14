@@ -15,27 +15,29 @@
 <body>
     <!-- Logo + sfondo header-->
     <div class="container">
-        <header class="logo"></header>
+        <div class="logo"></div>
     </div>
 
     <!-- Titolo -->
-    <div class="titolo">
+    <main class="article-header">
         <h1>Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners Lee</h1>
         <p id="autore">Scritto da <span id="nomeautore">The Booleaner</span></p>
-        <p id="data">il 10/10/2020</p>
+        <time id="data">il 10/10/2020</time>
 
         <!-- Immagini + corpo articolo -->
         <div class="immagini">
             <img id="tim1" src="img/tim-1.jpg" alt="tim1">
             <img id="tim2" src="img/tim-2.jpg" alt="tim2">
-            <p class="titoliimmagini">1st Photo: John S. and James L. Knight Foundation, by Scott Henrichsen</p>
-            <p class="titoliimmagini">2nd Photo: Tim Berners Lee, by Paul Clarke</p>
+            <figcaption class="titoliimmagini">
+                1st figcaptionhoto: John S. and James L. Knight Foundation, by Scott Henrichsen<br>
+                2nd Photo: Tim Berners Lee, by Paul Clarke
+            </figcaption>
         </div>
 
         <!-- Corpo articolo -->
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <span class="evidenziato">Ex ipsum laborum sed!
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <mark class="evidenziato">Ex ipsum laborum sed!
                 Earum nisi, qui fugiat
-                dolore</span>
+                dolore</mark>
             distinctio tempora! Facere aspernatur veniam numquam repudiandae tenetur. Inventore necessitatibus
             voluptatem aut laboriosam.</p>
         <ul>
@@ -79,22 +81,22 @@
                 </tr>
             </tbody>
         </table>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <span class="evidenziato"> Modi repudiandae unde
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <mark class="evidenziato"> Modi repudiandae unde
                 iusto, debitis
-                possimus</span>, repellat voluptas odit provident, facere autem pariatur explicabo blanditiis sunt vel
+                possimus</mark>, repellat voluptas odit provident, facere autem pariatur explicabo blanditiis sunt vel
             est. Perspiciatis voluptatibus dicta obcaecati.</p>
 
         <!-- Potrebbero interessarti -->
-        <footer class="interessi">
+        <aside class="interessi">
             <h3 class="titolofooter">Potrebbero interessarti</h3>
             <div class="monitor">
-                <h4 class="titolografico">Lorem ipsum dolor</h4>
+                <h4 class="related-article-title">Lorem ipsum dolor</h4>
             </div>
             <div class="grafico">
-                <h4 class="titolografico">Lorem ipsum dolor</h4>
+                <h4 class="related-article-title">Lorem ipsum dolor</h4>
             </div>
-        </footer>
-    </div>
+        </aside>
+    </main>
 </body>
 
 </html>

@@ -1,3 +1,4 @@
+/* Caratteristiche generali */
 body {
     margin-top: 0;
     font-family: apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -21,10 +22,11 @@ body {
     height: 70px;
     background-repeat: no-repeat;
     background-position-y: 50%;
+    border: 0px;
 }
 
 /* Titolo, immagini + corpo articolo */
-.titolo {
+.article-header {
     font-size: 14px;
     margin-bottom: 0%;
     width: 100%;
@@ -78,7 +80,8 @@ h1 {
 }
 
 ul {
-    padding-left: 15px;
+    padding: 0px;
+    list-style-position: inside;
 }
 
 /* Tabella */
@@ -134,6 +137,6 @@ thead {
     background-size: 100%;
 }
 
-.titolografico {
+.related-article-title {
     padding: 5%;
 }
